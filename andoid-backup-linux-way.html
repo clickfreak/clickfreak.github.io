@@ -89,9 +89,9 @@
 </pre></div>
 
 
-<p>Phone will ask you about password to encrypt backup data.</p>
-<p>This archive can be converted to tar format using:</p>
-<div class="highlight"><pre>dd if=myAndroidBackup.ab  bs=1 skip=24|openssl zlib -d &gt; myAndroidBackup.tar
+<p>Phone will ask you about password to encrypt backup data and start backup process.</p>
+<p>.ab archive can be converted to tar format using:</p>
+<div class="highlight"><pre><span class="n">dd</span> <span class="k">if</span><span class="o">=</span><span class="n">myAndroidBackup</span><span class="o">.</span><span class="n">ab</span> <span class="n">bs</span><span class="o">=</span><span class="mi">24</span> <span class="n">skip</span><span class="o">=</span><span class="mi">1</span> <span class="o">|</span> <span class="n">python</span> <span class="o">-</span><span class="n">c</span> <span class="s">&quot;import zlib,sys;print zlib.decompress(sys.stdin.read())&quot;</span> <span class="o">&gt;</span> <span class="n">myAndroidBackup</span><span class="o">.</span><span class="n">tar</span>
 </pre></div>
         </div><!-- /.entry-content -->
 

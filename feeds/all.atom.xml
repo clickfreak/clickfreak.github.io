@@ -4,7 +4,7 @@
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;Phone will ask you about password to encrypt backup data.&lt;/p&gt;
-&lt;p&gt;This archive can be converted to tar format using:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;dd if=myAndroidBackup.ab  bs=1 skip=24|openssl zlib -d &amp;gt; myAndroidBackup.tar
+&lt;p&gt;Phone will ask you about password to encrypt backup data and start backup process.&lt;/p&gt;
+&lt;p&gt;.ab archive can be converted to tar format using:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;dd&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;myAndroidBackup&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ab&lt;/span&gt; &lt;span class="n"&gt;bs&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;24&lt;/span&gt; &lt;span class="n"&gt;skip&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;python&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;import zlib,sys;print zlib.decompress(sys.stdin.read())&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;myAndroidBackup&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;tar&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;</summary></entry></feed>
