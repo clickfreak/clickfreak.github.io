@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Some notes about</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2015-07-15T01:31:00+03:00</updated><entry><title>Andoid backup linux way</title><link href="/andoid-backup-linux-way.html" rel="alternate"></link><updated>2015-07-15T01:31:00+03:00</updated><author><name>Clickfreak</name></author><id>tag:,2015-07-15:andoid-backup-linux-way.html</id><summary type="html">&lt;p&gt;adb backup will write an Android-specific archive:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;adb backup  -f myAndroidBackup.ab  com.corp.appName
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Phone will ask you about password to encrypt backup data.&lt;/p&gt;
+&lt;p&gt;This archive can be converted to tar format using:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;dd if=myAndroidBackup.ab  bs=1 skip=24|openssl zlib -d &amp;gt; myAndroidBackup.tar
+&lt;/pre&gt;&lt;/div&gt;</summary></entry></feed>
