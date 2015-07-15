@@ -8,7 +8,8 @@ SITEURL = ''
 
 PATH = 'content'
 
-THEME = "/home/keeper/pelican-themes/SoMA2"
+#THEME = "/home/keeper/pelican-themes/bootlex"
+THEME = "/home/keeper/pelican-themes/pelican-simplegrey"
 
 TIMEZONE = 'Europe/Moscow'
 
