@@ -9,7 +9,10 @@ SITEURL = ''
 PATH = 'content'
 
 #THEME = "/home/keeper/pelican-themes/bootlex"
-THEME = "/home/keeper/pelican-themes/pelican-simplegrey"
+#THEME = "/home/keeper/pelican-themes/zurb-F5-basic"
+THEME = "/home/keeper/pelican-themes/voidy-bootstrap"
+
+SIDEBAR = "sidebar.html"
 
 TIMEZONE = 'Europe/Moscow'
 
